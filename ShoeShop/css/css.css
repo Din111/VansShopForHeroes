@@ -1,0 +1,103 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: 7a8ba7;
+}
+.navigation {
+	height: 13vh;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: 8595af;
+}
+.logo {
+	height: 13vh;
+	width:14%;
+	float: left;
+	padding-top: 10px;
+
+}
+.userinfo{
+	height: 13vh;
+	width: 25%;
+	float: right;
+}
+.userinfo a:hover{
+	color:white;
+	text-decoration: none;
+
+}
+.user{
+	height: 13vh;
+	width: 30%;
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;	
+
+}
+.userinfo a{
+	height: 13vh;
+	float: left;
+	width: 50%;
+	padding: 14px;
+	font-size: 30px;
+	margin: auto;
+	margin-left: 60px;
+	padding-top: 30px;
+	padding-left: 30px;
+	color: black;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: 7a8ba7;
+}
+img {
+	width: 100%;
+	height: 80%;
+}
+
+.container .box {
+  width: 500px;
+  height: 70vh;
+  background-color: 7a8ba7;
+}
+.box p{
+	height:14vh ;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+	background-color: white;
+}
+.footer{
+	height: 11vh;
+	width: 30%;
+	position: center;
+	margin-left: 35%;
+}
+.items{
+	float: left;
+	height: inherit;
+	width: 75%;
+	background-color: white;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+}
+.number{
+	float: right;
+	height: inherit;
+	width: 25%;
+	background-color: orange;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+}
