@@ -1,44 +1,88 @@
 <html lang="en">
 <head>
-	<title>Shoe shop for heroes</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Shoe shop for heroes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
   <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
-	<header>
-  <div class="navigation">
-   	<div class="logo">
-   		<img src="images/logo.png">
-   	</div>   
-   	<div class="userinfo"> 
-   		<a href="https://www.google.ba/">Sign in</a>
-   		<div class="user">
-   			<img src="images/user.png">
-   		</div>	
-   	</div>  
-  </div>
+  <header>
+  <nav class="navbar navbar-black navbar-inverse">
+    <div class="container-fluid">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button> 
+       <a href="https://www.vans.eu/" class="navbar-brand"><img src="images/logo.jpg"></a>
+      <div class="collapse navbar-collapse" id="mainNavBar">
+        <div>
+          <ul class="nav navbar-nav">
+            <li class:"active"><a href="#">Men</a></li> 
+            <li><a href="#">Woman</a></li>
+            <li><a href="#">Children</a></li>
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Sign in</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </li>
+          </ul>
+              <a href="#" class="navbar-brand navbar-right"><img src="images/user.png"></a>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Log out</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
 </header>
-
+    <div id="slideshow">
+  <div class="slide-wrapper">
+    <div class="slide"><img src="images/vans.jpg"></div>
+    <div class="slide"><img src="images/vans1.jpg"></div>
+    <div class="slide"><img src="images/vans2.jpg"></div>
+    <div class="slide"><img src="images/vans3.jpg"></div>
+    <div class="slide"><img src="images/vans4.jpg"></div>
+  </div>
+    </div>
 <div class="container">
-  <div class="box">
-  	<img src= "images/vans.jpg">
-  	<p> Only for heroes!! </p>
-    <!-- HERE GOES BOX CONTENT --> 
+  <div class="row"> 
+    <div class="col-md-offset-3 col-md-6">
+      <div class="text">
+        <p> 1966 - Brothers Paul Van Doren and Jim Van Doren along with partners Gordon Lee and Serge Delia open for business at 704. The Van Doren Rubber Company is unique in that it manufactures shoes on premises and sells them directly to the public. On that first morning, 12 customers purchase shoes, which are made that day and ready for pick-up in the afternoon.   </p>
+      </div>
+      <br></br>
+      <div class="text">
+        <p> 1970 - Skateboarders who like Vans' rugged make-up and sticky sole are seen sporting Vans all over Southern California. The Vans #95, now known as the Era, with a padded collar and different color combinations, is designed by Tony Alva and Stacy Peralta and immediately becomes the shoe of choice for a generation of skateboarders. Vans' "Off the Wall" logo makes its debut.    </p>
+      </div>
+      <br></br>
+      <div class="text">
+        <p> 1980 - Vans Classic Slip-Ons gain international attention and appeal when they are worn by Sean Penn in the famous film called Fast Times at Ridgemont High. Vans files for Chapter 11 bankruptcy protection. Although the core Vans shoes are selling very well, the wide range of products that Vans offers have drained company resources and Vans is not able to overcome their debt.    </p>
+      </div>  
+    </div>
   </div>
 </div>
-
+<br></br>
 <footer>
   <div class="footer">
-    <div class="items">
-      <p> ITEMS IN CHART</p>
-    </div>
-    <div class="number">
-      <p> 1 </p>
-    </div>
+    <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+        <h3> Contact us </h3>
+            <ul>
+              <li>
+                <div class="input-append newsletter-box text-center">
+                  <input type="text" class="full text-center" placeholder="Message ">
+                  <button class="btn  bg-gray" type="button">Send<i class="fa fa-long-arrow-right"> </i> </button>
+                </div>
+              </li>
+            </ul>      
+    </div>  
+      <img src="images/copyright.jpg" class="img-responsive"><p>Din Tanovic</p>
   </div>
  <!-- HERE GOES TRANCKER FOR ADDED ITEMS IN CART -->  
 </footer>
@@ -46,4 +90,3 @@
 
 </body>
 </html>
-

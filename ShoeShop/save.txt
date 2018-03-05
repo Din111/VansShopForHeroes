@@ -1,0 +1,200 @@
+<html lang="en">
+<head>
+	<title>Shoe shop for heroes</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+	<header>
+  <nav class="navbar navbar-black">
+  <div class="container-fluid ">
+   	<div class="logo col-xs-4 col-md-2 ">
+      <a href="https://www.vans.eu/">
+   		<img src="images/logo.jpg" class="img-responsive">
+    </a>
+   	</div>   
+   	<div class="userinfo col-xs-8 col-md-5 "> 
+   		<a href="https://www.vans.eu/" class="img-responsive">Sign in</a>
+   		<div class="user col-xs-3 col-md-3 ">
+   			<img src="images/user.png">
+   		</div>	
+   	</div> 
+  </div> 
+  </nav>
+</header>
+  	<div id="slideshow">
+  <div class="slide-wrapper">
+    <div class="slide"><img src="images/vans.jpg"></div>
+    <div class="slide"><img src="images/vans1.jpg"></div>
+    <div class="slide"><img src="images/vans2.jpg"></div>
+    <div class="slide"><img src="images/vans3.jpg"></div>
+    <div class="slide"><img src="images/vans4.jpg"></div>
+  </div>
+    </div>
+<div class="container">
+  <div class="row"> 
+    <div class="col-md-offset-3 col-md-6">
+      <div class="text">
+        <p> 1966 - Brothers Paul Van Doren and Jim Van Doren along with partners Gordon Lee and Serge Delia open for business at 704. The Van Doren Rubber Company is unique in that it manufactures shoes on premises and sells them directly to the public. On that first morning, 12 customers purchase shoes, which are made that day and ready for pick-up in the afternoon.   </p>
+      </div>
+      <br></br>
+      <div class="text">
+        <p> 1970 - Skateboarders who like Vans' rugged make-up and sticky sole are seen sporting Vans all over Southern California. The Vans #95, now known as the Era, with a padded collar and different color combinations, is designed by Tony Alva and Stacy Peralta and immediately becomes the shoe of choice for a generation of skateboarders. Vans' "Off the Wall" logo makes its debut.    </p>
+      </div>
+      <br></br>
+      <div class="text">
+        <p> 1980 - Vans Classic Slip-Ons gain international attention and appeal when they are worn by Sean Penn in the famous film called Fast Times at Ridgemont High. Vans files for Chapter 11 bankruptcy protection. Although the core Vans shoes are selling very well, the wide range of products that Vans offers have drained company resources and Vans is not able to overcome their debt.    </p>
+      </div>  
+    </div>
+  </div>
+</div>
+<br></br>
+<footer>
+  <div class="footer">
+    <img src="images/copyright.jpg" class="img-responsive">
+    <p>Din Tanovic</p>
+  </div>
+ <!-- HERE GOES TRANCKER FOR ADDED ITEMS IN CART -->  
+</footer>
+
+
+</body>
+</html>
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%; 
+}
+.navbar {
+	height: 10vh;
+	position: fixed; ;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: black;
+	width: 100%;
+}
+.logo {
+	height: 13vh;
+	float: left;
+	padding-top: 10px;	
+
+}
+
+.logo img {
+	width: 20vh;
+	height: 8vh;
+
+}
+.userinfo{
+	height: 13vh;
+	width: 40vh;
+	float: right;
+	z-index: 99;
+}
+.userinfo a:hover{
+	color:red;
+	text-decoration: none;
+
+}
+.user{
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.user img {
+	height: 8vh;
+	width: 8vh;
+	margin-right: 5vh;
+}
+.userinfo a{
+	float: left;
+	text-align: center;
+	font-size: 180%;
+	color: white;
+	margin-top: 3vh;
+	margin-left: 5vh;
+}
+
+img {
+	width: 100%;
+	height: 80%;
+}
+#slideshow {
+  overflow: hidden;
+  height: 70vh;
+  width: 93vh;
+  margin: auto;
+  margin-top: 17vh;
+  margin-bottom: 10vh;
+  border-radius: 70px;
+  
+}
+
+.slide-wrapper {
+  width: 3000px;
+  -webkit-animation: slide 20s ease infinite;
+  
+}
+
+.slide {
+  float: left;
+  height: 87vh;
+  width: 728px;
+  
+}
+
+	@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+.text{
+	border-radius: 38px;
+	padding: 10px 15px;
+	background-color: white;
+	margin: auto;
+}
+.text p{
+	padding-top: 2vh;
+	font-family: helvetica;
+	font-size: 20px;
+	color: black;
+	text-align: justify;
+	padding-left: 1vh;
+	padding-right: 1vh;
+}
+.footer{
+	height: 11vh;
+	width: 100%;
+}
+.footer img{
+	height: 10vh;
+	width: 10vh;
+	float: right;
+	margin-right: 1vh;
+}
+.footer p{
+	height:4vh;
+	width: 20vh;
+	font-family: helvetica;
+	font-size: 25px;
+	color: white;
+	float: right;
+	margin-top: 6vh;
+}
+
